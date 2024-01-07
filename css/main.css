@@ -31,6 +31,7 @@ img{
 
 
 a{
+    font-family: sans-serif;
     color: var(--link-color);
     word-break: break-word;
 }
@@ -41,22 +42,27 @@ a:hover, a:focus{
 }
 
 p{
+    font-family: sans-serif;
     color: var(--main-bodycopy-color);
-    font-size:0.8rem;
+    font-size:0.85rem;
 }
 
 h1{
+    font-family: sans-serif;
 
 }
 
 h2{
+    font-family: sans-serif;
 
 }
 
 h3{
+    font-family: sans-serif;
 
 }
 
 h4{
-    
+    font-family: sans-serif;
+
 }
