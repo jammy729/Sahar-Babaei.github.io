@@ -1,0 +1,62 @@
+
+
+/* code section ================= General styling =================  */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+::selection {
+    background: #ff9ce0;
+}
+
+/* declaring global css varibales */
+:root{
+    --main-bodycopy-color: #000;
+    --main-bg-color: #fff;
+    --link-color: #fb5353;
+    --link-hover-color: #00b649;
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+img{
+    display: block;
+    height: auto;
+    max-width:100%;
+}
+
+
+a{
+    color: var(--link-color);
+    word-break: break-word;
+}
+
+a:hover, a:focus{
+    color:var(--link-hover-color);
+    text-decoration:underline;
+}
+
+p{
+    color: var(--main-bodycopy-color);
+    font-size:0.8rem;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+    
+}
