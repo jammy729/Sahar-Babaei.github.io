@@ -32,7 +32,7 @@ img{
 
 
 a{
-    font-family: sans-serif;
+    font-family: "abc-diatype-round", sans-serif;
     color: var(--link-color);
     word-break: break-word;
 }
