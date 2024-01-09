@@ -9,6 +9,10 @@
         flex-direction: row-reverse;
     }
 
+    main{
+        margin-right: 13.8rem;
+    }
+
     .nav-section{
         width: 13.8rem;
         flex-direction: column;
@@ -29,7 +33,7 @@
 
     .logotype{
         display: block;
-        color: var(--secondary-bodycopy-color);
+        color: var(--navbar-text-color);
         text-decoration: none;
         text-align: center;
         font-size: 1.7rem;
@@ -52,7 +56,32 @@
 
     nav a{
         text-align: center;
+        font-weight: 400;
+
+        margin: 0.5rem 0;
+        padding: 0.4rem 1.8rem;
+
+        border: var(--navbar-text-color) 0.18rem solid;
+        border-radius: 10rem;
     }
+
+
+    nav a:hover, nav a:focus{
+        color: var(--navbar-color);
+        background-color: var(--navbar-text-color);
+
+        margin: 0.5rem 0;
+        padding: 0.4rem 1.8rem;
+
+        border: var(--navbar-text-color) 0.18rem solid;
+        border-radius: 10rem;
+        text-decoration: none;
+    }
+
+    nav a:focus{
+        text-decoration: underline;
+    }
+
 
     footer{
         display: none;
@@ -64,7 +93,7 @@
 
     .side-footer p{
         display: block;
-        color:var(--secondary-bodycopy-color);
+        color:var(--navbar-text-color);
         text-align: center;
         font-size: 0.7rem;
         font-weight: 200;
