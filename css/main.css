@@ -21,6 +21,14 @@
     --link-hover-color: #00b649;
 }
 
+
+.main-wrapper{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+
 body{
     background-color: var(--main-bg-color);
 }
@@ -44,20 +52,22 @@ a:hover, a:focus{
 }
 
 p{
-    font-family: sans-serif;
+    font-family: "abc-diatype-round", sans-serif;
     color: var(--main-bodycopy-color);
     font-size:0.85rem;
+    font-weight: 300;
 }
 
 h1{
-    font-family: sans-serif;
+    font-family: "abc-diatype-round",sans-serif;
     color: var(--secondary-bodycopy-color);
     font-weight: 400;
 }
 
 h2{
-    font-family: sans-serif;
-
+    font-family: "abc-diatype-round",sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
 }
 
 h3{
@@ -69,6 +79,8 @@ h4{
     font-family: sans-serif;
 
 }
+
+
 
 
 /* mobile styling of nav section */
@@ -129,3 +141,27 @@ nav a:hover, nav a:focus{
     text-decoration: underline;
 }
 
+.callout{
+    font-family: "family",sans-serif;
+    font-weight: 100;
+    font-size: 1.8rem;
+
+}
+
+main{
+    flex-grow:1;
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+footer p{
+    color:var(--secondary-bodycopy-color);
+    display: block;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 200;
+}
