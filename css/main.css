@@ -97,7 +97,6 @@ h4{
 .my-brand{
     display:flex;
     flex-direction: row-reverse;
-    
     align-items: center ;
 
 }
@@ -127,7 +126,14 @@ h4{
     text-decoration: none;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 nav a{
+    display: block;
     font-size: 1rem;
     font-weight: 300;
     color: var(--secondary-bodycopy-color);
@@ -152,6 +158,10 @@ main{
     flex-grow:1;
 }
 
+.side-footer{
+    display: none;
+}
+
 footer{
     background-color: var(--primary-color);
     padding: 1rem;
@@ -159,8 +169,8 @@ footer{
 }
 
 footer p{
-    color:var(--secondary-bodycopy-color);
     display: block;
+    color:var(--secondary-bodycopy-color);
     text-align: center;
     font-size: 0.7rem;
     font-weight: 200;

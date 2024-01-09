@@ -4,5 +4,72 @@
 /* ============ layout SWITCH - 920 px and bigger ============ */
 /* 920 px or bigger so ipad airs can have a side bar too */
 @media (min-width : 57.5rem){
-    
+
+    .main-wrapper{
+        flex-direction: row-reverse;
+    }
+
+    .nav-section{
+        width: 13.8rem;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+        position: fixed;
+      
+    }
+
+    .my-brand{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .short-logotype{
+        display:none;
+    }
+
+    .logotype{
+        display: block;
+        color: var(--secondary-bodycopy-color);
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        padding: 0 2rem ;
+
+    }
+
+    .smiley-logo{
+        display: block;
+        width: 5.9rem;
+        height: auto;
+        margin-bottom: 0.8rem;
+        
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav a{
+        text-align: center;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .side-footer{
+        display: block;
+    }
+
+    .side-footer p{
+        display: block;
+        color:var(--secondary-bodycopy-color);
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 200;
+    }
+
+
+
 }
