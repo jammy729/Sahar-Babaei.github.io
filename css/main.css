@@ -14,6 +14,7 @@
 /* declaring global css varibales */
 :root{
     --main-bodycopy-color: #000;
+    --secondary-bodycopy-color: white;
     --main-bg-color: #ecebeb;
     --primary-color: #16874F;
     --link-color: #fb5353;
@@ -50,7 +51,8 @@ p{
 
 h1{
     font-family: sans-serif;
-
+    color: var(--secondary-bodycopy-color);
+    font-weight: 400;
 }
 
 h2{
@@ -67,3 +69,63 @@ h4{
     font-family: sans-serif;
 
 }
+
+
+/* mobile styling of nav section */
+.nav-section{
+    background-color: var(--primary-color);
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0.7rem;
+
+}
+
+.my-brand{
+    display:flex;
+    flex-direction: row-reverse;
+    
+    align-items: center ;
+
+}
+
+.logotype{
+    display: none;
+}
+
+.short-logotype{
+    display:block;
+    font-weight: 300;
+    font-size: 1.85rem;
+    color: var(--secondary-bodycopy-color);
+    text-decoration: none;
+    margin:0.2rem;
+    margin-top: 0.4rem;
+    padding:0;
+}
+
+.smiley-logo{
+    width:1.7rem;
+    height:auto;
+}
+
+.my-brand a:hover, .my-brand a:focus{
+    color: var(--secondary-bodycopy-color);
+    text-decoration: none;
+}
+
+nav a{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--secondary-bodycopy-color);
+    margin: 0 0.5rem;
+    text-decoration: none;
+
+}
+
+nav a:hover, nav a:focus{
+    color: var(--secondary-bodycopy-color);
+    text-decoration: underline;
+}
+
