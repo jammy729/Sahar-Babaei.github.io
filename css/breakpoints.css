@@ -11,7 +11,11 @@
 
     main{
         margin-right: 14rem;
-        
+    }
+
+    .main-section{
+        width:95%;
+        margin:2.5rem auto;
     }
 
     .nav-section{
@@ -100,6 +104,10 @@
 
     .space-fixer-div{
         display: block; 
+    }
+
+    .callout{
+        font-size: 5rem;
     }
 
 
